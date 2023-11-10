@@ -1,10 +1,7 @@
 .upper-block {
-    display: grid;
-    grid-template-columns: 1fr 5fr 2fr;
-    justify-content: center;
-    justify-items: start;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    align-content: space-evenly;
     margin: 20px 10px 20px 30px;
 }
 
@@ -59,9 +56,8 @@
     justify-content: center;
     align-items: center;
     justify-items: end;
-    width: 392px;
     font-weight: 900;
-    zoom: 1.5;
+    font-size: 1.5em;
 }
 
 .upper-right > .create, .upper-right > .log-in, .upper-right > .sign-up {
