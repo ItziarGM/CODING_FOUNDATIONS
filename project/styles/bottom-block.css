@@ -1,0 +1,27 @@
+.bottom-block {
+    zoom: 1.5;
+    background-color: #36383f;
+    margin-bottom: 80px;
+    column-rule: 2px solid grey;
+    columns: 4;
+    border: 1.3px solid grey;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.bottom-block > .teams, .bottom-block > .education, .bottom-block > .privacy, .bottom-block > .writing {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.bottom-block > .teams span, .bottom-block > .education span, .bottom-block > .privacy span, .bottom-block > .writing span {
+    padding-left: 3px;
+    color: white;
+    text-shadow: 0.5px -0.5px, 0.7px -0.7px, 0.7px 0.7px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    zoom: 1.2;
+}
