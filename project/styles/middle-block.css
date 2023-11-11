@@ -1,24 +1,24 @@
 .middle-block {
-    background: radial-gradient(circle at 30% 0%, #4c505a, #1d1e22, #000000);
+    background: radial-gradient(circle at 30% 0%, #33333b, #000000);
     color: #cbcccf;
-    zoom: 1.5;
+    font-size: 1.6em;
     display: grid;
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 6fr 5fr;
+    padding-top: 20px;
+    padding-left: 15px;
 }
 
 .middle-block > .main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 50px;
     display: inline;
 }
 
 .middle-block > .main-text > .first-heading {
     font-family: 'Georama', sans-serif;
-    font-size: 2.1em;
+    font-size: 1.9em;
     padding-bottom: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    line-height: 135%;
 }
 
 .middle-block > .main-text > .first-heading > .social-dev-env {
@@ -26,30 +26,38 @@
     font-weight: bold;
 }
 .middle-block > .main-text > .first-heading img {
-    zoom: 0.07;
+    width: 50px;
 }
 
 
 .middle-block > .main-text > .second-heading {
     font-family: "Georama", sans-serif;
     font-weight: 400;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    letter-spacing: 1px;
     line-height: 150%;
     margin-bottom: 40px;
+    padding-right: 10px;
+}
+
+.middle-block > .main-text > .buttons {
+    display: flex;
 }
 
 .middle-block > .main-text > .buttons > .green-button,  .middle-block > .main-text > .buttons > .black-button{
     width: fit-content;
-    padding: 15px 20px;
+    padding: 20px 30px;
     font-family: 'Georama', sans-serif;
     font-weight: bold;
-    margin-top: 20px;
     border-radius: 2px;
-    margin-right: 15px;
-    font-size: 1.5em;
+    margin-right: 20px;
+    font-size: 1.8em;
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2) inset;
     text-shadow: 0.1px -0.1px, -0.1px -0.1px;
+    text-align: center;
+    letter-spacing: 1px;
 }
+
 .middle-block > .main-text > .buttons > .green-button {
     background-color: #4bce79;
     color: black;
@@ -63,7 +71,7 @@
 
 /*image-corner*/
 .middle-block > .image-corner {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .middle-block > .image-corner > .heading {
@@ -73,7 +81,7 @@
     margin-top: 40px;
     margin-left: 25px;
     margin-bottom: 5px;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .middle-block > .image-corner > .heading > .blue {
@@ -86,7 +94,7 @@
 }
 
 .middle-block > .image-corner > .main-image img {
-    width: 480px;
+    width: 100%;
     box-shadow: -10px 7px 35px -8px rgba(0,0,0,0.5);
     margin-bottom: 10px;
 }

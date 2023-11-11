@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 10px 20px 30px;
+    margin: 18px 15px 18px 35px;
 }
 
 .upper-block > .logo img {
@@ -13,22 +13,21 @@
 .upper-block > .nav-bar > .explore{
     color: rgb(251, 230, 113);    
     font-weight: 600;
-    zoom: 0.8;
+    font-size: 0.8em;
 }
 
 .upper-block > .nav-bar {
-    padding-left: 35px;
-    zoom: 1.8;
+    font-size: 29px;
+    width: 35%;
+    padding-right: 135px;
 }
 
 .upper-block > .nav-bar > .nav-bar-content {
-    width: 335px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     font-family: "Hind", sans-serif;
-    text-shadow: 0px 0.1px, 0.1px 0px, 0.1px 0.1px;
 }
 
 .upper-block > .nav-bar > .nav-bar-content i {
@@ -41,45 +40,45 @@
     display: flex;
     opacity: 0.70;
     align-items: center;
-    margin-left: 15px;
+    justify-content: flex-end;
+    width: 20%;
 }
 .upper-block > .nav-bar > .nav-bar-content > .spark i {
-    zoom: 0.7;
     margin-left: 10px;
 }
 
 /*right block*/
 .upper-right {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr 2fr;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: end;
-    font-weight: 900;
-    font-size: 1.5em;
+    width: 35%;
 }
 
-.upper-right > .create, .upper-right > .log-in, .upper-right > .sign-up {
-    background-color: rgba(171, 171, 181, 0.35);
+.upper-right > .upper-right-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.upper-right > .upper-right-wrapper > .create, .upper-right > .upper-right-wrapper > .log-in, .upper-right > .upper-right-wrapper > .sign-up {
+    background-color: rgb(73 73 73 / 58%);
     border-radius: 3px;
     height: 10px;
-    padding: 20px;
+    padding: 35px;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.upper-right > .create i{
+.upper-right > .upper-right-wrapper > .create i{
     color: rgb(117, 225, 117);
     margin-left: 5px;
-    zoom: 1.1;
 }
 
-.upper-right > .image {
+.upper-right > .upper-right-wrapper > .image {
     font-weight: 600;
     font-size: 1.9em;
     opacity: 0.5;
-    padding-left: 12px;  
+    padding: 0px 10px;
 }
